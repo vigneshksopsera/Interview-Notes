@@ -1,4 +1,4 @@
-# Interview-Notes
+# Interview Prep
 
 
 Sliding Window Template for multiple problems.
