@@ -1,5 +1,38 @@
 # Interview Prep
 
+Mistakes and lessons learnt from previous interviews:
+
+Scheduling:
+1. Pay more attention to scheduling and always keep 2-3 days open before the on-site interview of company. Unless very critical dont schedule anything immediately.
+2. Its okay to reach out to HR and reschedule. If suddenly after scheduling, if the 2-3 days before onsite looks very congested (ex. Lifion 2 days before onsite, i was fully swamped with office work) try to reschedule.
+3. Avoid C style companies. startups whose products are not good and unsuitable position(FE, DevOps) companies.
+4. Clarify upfront type of interviews and avoid them if not good.
+
+Preparation during interviews:
+
+1. Days before onsite or phone interview, I tend to waste a lot and cramp everything on the last day.
+It increases anxiety, pressure and decreases my performance.
+2. Reason: 
+    a) No checklists or clear direction of what to cover.
+    b) Negative attitude.
+    c) Distraction mainly due to negative attitude.
+    d) Lack of motivation.
+
+3. Checklist for onsite:
+    1. Leave 3 days before onsite open.
+    2. Revise all the data structures, algorithms, time complexities, tricks, SD, OOD and solved PS problems if possible.
+    3. 2nd day solve more problems. 80%PS, 20%SD and OOD problems.
+    4. Before onsite till evening solve problems in same ratio.
+    5. Prepare for behavorial till night.
+    6. Have good sleep of 8 hours.
+    
+Strategy for problem solving: #TBD
+1. Make sure the problem is well understood. Clarify input, output and constraints. 
+2. Try to come with brute force and if the time goes beyond 15-20mins, code the brute force solution.
+3. Try to identify if it falls within some structure. For ex (array->backtracking, tree->iterative, string->sliding window).
+4. Try the #TBD CTC Algorithm Strategies and getting unstuck tips from Interview Cake.
+5. Write optimized code no more than 100 lines.
+6. Check edge cases and corner cases before 'Submitting the solution'.
 
 Sliding Window Template for multiple problems.
 ``https://leetcode.com/problems/find-all-anagrams-in-a-string/discuss/92007/Sliding-Window-algorithm-template-to-solve-all-the-Leetcode-substring-search-problem.``
