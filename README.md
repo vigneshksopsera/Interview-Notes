@@ -1,5 +1,22 @@
 # Interview Prep
 
+
+Categories of questions:
+
+Array
+    Two ptr/sliding window, 2d matrix, backtracking, DP, circular array, divide & conquer
+String
+    reverse, palindrome, sliding window, backtracking
+Lists
+    median, reverse, merge
+Tree
+    traversals, searching
+Stack
+Queue
+Graph
+    traversals(BFS, DFS) shortest path
+Math problems
+
 Mistakes and lessons learnt from previous interviews:
 
 Scheduling:
