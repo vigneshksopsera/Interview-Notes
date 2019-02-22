@@ -1,5 +1,8 @@
 package Tree;
 
+import java.util.ArrayDeque;
+import java.util.Deque;
+
 /**
  * 
  * 
@@ -27,19 +30,22 @@ Tags - Tree, BFS traversals
 
 
 public class PopulatingNextRightPointers {
-	
-	public Node connect(Node root) {
+	public class CustomNode {
+		int val;
+		CustomNode left, right, next;
+	}
+	public CustomNode connect(CustomNode root) {
         
         if(root == null) return null;
-        Deque<Node> queue = new ArrayDeque<>();
+        Deque<CustomNode> queue = new ArrayDeque<>();
         queue.add(root);
         
         while(!queue.isEmpty()) {
             int size = queue.size();
             while(size != 0) {
-                Node node = queue.poll();
+            	CustomNode node = queue.poll();
                 size--;
-                Node nextNode = queue.peek();
+                CustomNode nextNode = queue.peek();
                 if(nextNode != null && size > 0) node.next = nextNode;
                 else node.next = null;
                 
