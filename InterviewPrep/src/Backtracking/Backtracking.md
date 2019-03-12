@@ -1,5 +1,9 @@
 Cases of Backtracking problems
 
+
+It is a process of building and destroying...
+
+
 1. Basically we need to iterate the given data structure in the problem in recursive way..(String, array)
 2. Each modification of the DS, can lead to a new DS as an argument for the recursive call. Eg. Letter case permutation problem.
 
