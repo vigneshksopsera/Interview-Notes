@@ -1,5 +1,10 @@
 package String;
 
+/*
+ * Q- https://leetcode.com/problems/longest-common-prefix/
+ * Tags - easy, string
+ * 
+ */
 public class longestCommonPrefix {
 	
     public String LongestCommonPrefix(String[] strs) {
