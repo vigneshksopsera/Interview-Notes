@@ -1,10 +1,13 @@
-
+Arrays
+Arrays.copyOf
 
 List
 
 list.addAll(Collection<Datatype>)
 
 Map
+
+Inbuilt key - Integer.hashCode(key);
 
 
 Treemap - freqMap.pollLastEntry()
