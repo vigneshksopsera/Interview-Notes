@@ -22,6 +22,9 @@ Arrays
 
 Arrays.copyOf
 
+    
+Convert int[] to list
+    Arrays.stream(ints).boxed().collect(Collectors.toList());
 
 
 List
